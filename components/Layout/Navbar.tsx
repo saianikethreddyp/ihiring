@@ -94,9 +94,6 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-auto">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 group z-50 relative">
-            <div className={`w-10 h-10 rounded-xl flex items-center justify-center transition-colors ${logoBgClass}`}>
-              <Activity className={`w-6 h-6 transition-colors ${logoDotClass === 'text-blue-300' ? 'text-white' : 'text-blue-600'}`} />
-            </div>
             <motion.div
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
