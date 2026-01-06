@@ -48,15 +48,6 @@ export default function InterviewerPage() {
     )
 
     const features = [
-        { title: '24/7 Availability', description: 'Screen candidates anytime, anywhere, in any time zone without scheduling conflicts.', icon: Clock },
-        { title: 'Unbiased Evaluation', description: 'Standardized questioning ensures every candidate gets a fair and equal opportunity.', icon: Scale },
-        { title: 'Deep Technical Dives', description: 'Our AI can conduct deep technical discussions and code reviews in real-time.', icon: BrainCircuit },
-    ]
-
-    // Custom icons needed just for this page so importing Scale here isn't clean, I'll use Globe as placeholder
-    // Correction: using generic Lucide icons available in standard set
-
-    const featuresCorrected = [
         { title: '24/7 Availability', description: 'Screen candidates anytime, anywhere, without scheduling conflicts.', icon: Globe },
         { title: 'Unbiased Evaluation', description: 'Standardized questioning ensures every candidate gets a fair opportunity.', icon: Zap },
         { title: 'Technical Deep Dives', description: 'Conduct deep technical discussions and code reviews in real-time.', icon: BrainCircuit },
@@ -69,7 +60,7 @@ export default function InterviewerPage() {
             description="Meet your new 24/7 hiring assistant. Conduct first-round interviews with human-like conversation and intelligent follow-ups."
             icon={Activity}
             visual={visual}
-            features={featuresCorrected}
+            features={features}
             badge="NEW"
         />
     )
