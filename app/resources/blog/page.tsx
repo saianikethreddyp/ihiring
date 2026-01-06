@@ -1,7 +1,7 @@
 'use client'
 
 import FeaturePage from '@/components/Templates/FeaturePage'
-import { BookOpen, PenTool, Rss } from 'lucide-react'
+import { BookOpen, PenTool, Rss, TrendingUp } from 'lucide-react'
 
 export default function BlogPage() {
     return (
